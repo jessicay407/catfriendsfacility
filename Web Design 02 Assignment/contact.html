@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+	<a href="index.html"><img class="logo" src="images/furry friends.png" alt="Your Logo"> </a>
+	
+	 <div class="navigation">
+		 
+		 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+				<li class="dropdown">
+                   	<a href="#" class="dropdown-button">Services</a>
+                    
+                    <div class="dropdown-content">
+                        <a href="training.html">Training</a>
+                        <a href="grooming.html">Grooming</a>
+                    </div>
+                </li> 
+				<li><a href="prices.html">Prices</a></li>
+                <li><a href="contact.html">Booking</a></li>
+                
+            </ul>
+        </div>
+	
+	
+	<div class="container">
+		<h1>Booking Page</h1>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name">
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email">
+
+			<label for="date">Date:</label>
+			<input type="date" id="date" name="date">
+
+			<label for="time">Time:</label>
+			<input type="time" id="time" name="time">
+
+			<label for="service">Service:</label>
+			<select id="service" name="service">
+				<option value="Obedience Training">Obedience Training</option>
+				<option value="Behavioral Modification">Behavioral Modification</option>
+				<option value="Agility Training">Agility Training</option>
+				<option value="Standard Grooming">Standard Grooming</option>
+				<option value="Haircut">Haircut</option>
+				<option value="Flea Treatment">Flea Treatment</option>
+			</select>
+
+			<input type="submit" value="Book Now">
+		</form>
+	</div>
+
+	
+	<footer class="footer">Copyright 2023</footer>
+	
+</body>
+</html>
